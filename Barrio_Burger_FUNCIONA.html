@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Barrio Burger: hamburguesas y comida para disfrutar.">
+  <title>Barrio Burger | Tienda online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box} :root{--bg:#f5f1e9;--ink:#191916;--muted:#77766f;--orange:#f15a24;--line:#ded9cf;--white:#fff}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.topbar{height:82px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:5}.brand{display:flex;align-items:center;gap:11px;font-family:Oswald,sans-serif;font-weight:700;font-size:19px;letter-spacing:.5px;line-height:1}.brand-mark{width:42px;height:42px;display:grid;place-items:center;background:var(--orange);color:white;font-size:17px;transform:rotate(-5deg)}.brand-accent{color:var(--orange)}.brand small{display:block;font:700 8px "DM Sans";letter-spacing:2px;margin-top:5px;color:var(--muted)}.desktop-nav{display:flex;gap:35px;font-size:13px;font-weight:700}.desktop-nav a:hover{color:var(--orange)}.cart-open{border:1px solid var(--ink);background:transparent;padding:11px 15px;border-radius:3px;font-weight:700;cursor:pointer}.cart-open b{background:var(--orange);color:#fff;border-radius:20px;padding:3px 7px;margin-left:7px}.hero{min-height:570px;padding:80px 10% 50px;position:relative;display:flex;align-items:center;overflow:hidden;background:#201f1b;color:white}.hero-copy{position:relative;z-index:1;width:54%}.eyebrow{font-size:10px;letter-spacing:2.5px;font-weight:800;color:var(--orange);margin:0 0 16px}.hero h1,.section-heading h2,.promo h2,.contact-section h2{font-family:Oswald,sans-serif;font-size:clamp(55px,8vw,100px);line-height:.95;letter-spacing:-1px;margin:0}.hero h1 span,.section-heading h2 span,.contact-section h2 span{color:var(--orange)}.hero-text{color:#c4c1b8;max-width:390px;line-height:1.8;font-size:14px;margin:25px 0 30px}.primary-btn{display:inline-flex;gap:25px;align-items:center;background:var(--orange);border:0;color:white;padding:16px 22px;font-size:11px;font-weight:800;letter-spacing:1px;cursor:pointer;transition:.2s}.primary-btn:hover,.checkout-btn:hover{background:#d84917;transform:translateY(-2px)}.hero-image{position:absolute;right:8%;top:9%;width:42%;height:78%;background:linear-gradient(0deg,rgba(0,0,0,.12),rgba(0,0,0,.12)),url("https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1100&auto=format&fit=crop") center/cover;border-radius:48% 48% 5px 5px;filter:saturate(.9)}.hero-sticker{position:absolute;bottom:12%;left:-35px;background:var(--orange);width:95px;height:95px;border-radius:50%;display:grid;align-content:center;text-align:center;font-family:Oswald;font-size:20px;transform:rotate(-12deg)}.hero-sticker b{font-size:15px}.hero-bottom{position:absolute;bottom:20px;left:10%;right:10%;display:flex;justify-content:space-between;font-size:9px;letter-spacing:2px;color:#aaa69b}.menu-section{padding:95px 9% 105px}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:38px}.section-heading h2,.contact-section h2{font-size:58px}.section-note{font-size:12px;line-height:1.8;color:var(--muted)}.toolbar{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:28px;border-bottom:1px solid var(--line);padding-bottom:17px}.categories{display:flex;gap:8px;flex-wrap:wrap}.category{border:1px solid var(--line);background:transparent;padding:9px 15px;border-radius:30px;font-size:11px;font-weight:700;cursor:pointer}.category.active,.category:hover{background:var(--ink);border-color:var(--ink);color:white}.search-box{border-bottom:1px solid #aaa;padding:7px 4px;color:var(--orange);display:flex;gap:8px}.search-box input{border:0;background:transparent;outline:0;width:150px;font-size:12px}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.product-card{background:#fff;border:1px solid #e9e4dc;transition:.25s;position:relative}.product-card:hover{transform:translateY(-6px);box-shadow:0 14px 30px #19191612}.product-image{height:190px;overflow:hidden;background:#e8e1d6}.product-image img{width:100%;height:100%;object-fit:cover;transition:.4s}.product-card:hover img{transform:scale(1.06)}.product-info{padding:17px}.product-category{font-size:9px;letter-spacing:1.5px;color:var(--orange);font-weight:800;text-transform:uppercase}.product-info h3{font-family:Oswald,sans-serif;font-size:21px;margin:7px 0}.product-info p{font-size:11px;color:var(--muted);line-height:1.6;min-height:35px;margin:0 0 16px}.product-bottom{display:flex;justify-content:space-between;align-items:center}.price{font-weight:800;font-size:15px}.add-btn{background:var(--ink);color:#fff;border:0;width:34px;height:34px;font-size:20px;cursor:pointer}.add-btn:hover{background:var(--orange)}.promo{background:#e9e2d6;padding:70px 10%;display:flex;align-items:center;justify-content:space-between;gap:50px}.promo h2{font-size:55px}.promo>p{max-width:420px;color:#626058;line-height:1.9;font-size:13px}.contact-section{padding:85px 10%;display:grid;grid-template-columns:1fr 1fr;gap:60px}.contact-section form{display:grid;gap:12px}.contact-section input,.contact-section textarea{padding:14px;border:1px solid var(--line);background:#fff;outline-color:var(--orange);resize:vertical}.contact-section .primary-btn{justify-content:center}footer{padding:28px 8%;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}footer p{font-size:10px;color:var(--muted)}.overlay{position:fixed;inset:0;background:#0008;z-index:8;opacity:0;visibility:hidden;transition:.25s}.overlay.show{opacity:1;visibility:visible}.cart-panel{position:fixed;right:0;top:0;height:100%;width:min(420px,100%);background:var(--bg);z-index:9;padding:28px;display:flex;flex-direction:column;transform:translateX(105%);transition:.3s}.cart-panel.open{transform:translateX(0)}.cart-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:20px}.cart-header h2{font:36px Oswald;margin:0}.close-btn{border:0;background:none;font-size:32px;cursor:pointer}.cart-items{flex:1;overflow:auto;padding:15px 0}.empty-cart{text-align:center;color:var(--muted);padding:40px 0;font-size:13px}.cart-row{display:grid;grid-template-columns:1fr auto;gap:10px;padding:15px 0;border-bottom:1px solid var(--line)}.cart-row h4{margin:0 0 5px;font-size:13px}.cart-row small{color:var(--muted)}.quantity{display:flex;align-items:center;gap:9px}.quantity button{border:1px solid var(--line);background:white;width:25px;height:25px;cursor:pointer}.remove-btn{display:block;border:0;background:none;color:var(--orange);font-size:10px;padding:7px 0 0;cursor:pointer}.cart-footer{border-top:1px solid var(--line);padding-top:20px}.total-line{display:flex;justify-content:space-between;font-size:18px;margin-bottom:18px}.checkout-btn{width:100%;background:var(--orange);border:0;color:white;padding:16px;font-weight:800;cursor:pointer}.cart-footer small{display:block;color:var(--muted);font-size:9px;text-align:center;margin-top:12px}.toast{position:fixed;bottom:25px;left:50%;transform:translate(-50%,20px);background:var(--ink);color:white;padding:13px 20px;font-size:12px;opacity:0;pointer-events:none;transition:.25s;z-index:12}.toast.show{opacity:1;transform:translate(-50%,0)}@media(max-width:900px){.product-grid{grid-template-columns:repeat(2,1fr)}.hero{padding-left:7%;min-height:520px}.hero-image{right:3%;width:46%;opacity:.75}.menu-section{padding:70px 6%}.promo{padding:60px 7%}}@media(max-width:600px){.topbar{height:70px;padding:0 5%}.desktop-nav{display:none}.cart-open span{display:none}.hero{min-height:620px;padding:60px 7%;align-items:flex-start}.hero-copy{width:100%}.hero h1{font-size:67px}.hero-image{top:auto;bottom:55px;right:7%;width:75%;height:43%;opacity:.48}.hero-bottom{left:7%;right:7%;font-size:7px}.section-heading{display:block}.section-heading h2,.contact-section h2{font-size:48px}.section-note{margin-top:15px}.toolbar{align-items:stretch;flex-direction:column}.search-box input{width:100%}.product-grid{grid-template-columns:1fr 1fr;gap:12px}.product-image{height:140px}.product-info{padding:12px}.product-info h3{font-size:18px}.product-info p{font-size:10px}.price{font-size:13px}.promo{display:block}.promo h2{font-size:46px}.promo>p{margin-top:25px}.contact-section{grid-template-columns:1fr;padding:65px 7%;gap:25px}footer{align-items:flex-start;gap:15px;flex-direction:column}}@media(max-width:370px){.product-grid{grid-template-columns:1fr}.product-image{height:190px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Barrio Burger inicio">
+      <span class="brand-mark">BB</span>
+      <span>BARRIO<span class="brand-accent">BURGER</span><small>HECHO PARA DISFRUTAR</small></span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="#productos">Menú</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="cart-open" id="cartOpen" aria-label="Abrir carrito">🛒 <span>Mi pedido</span><b id="cartCount">0</b></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SABOR DE BARRIO · DESDE 2026</p>
+        <h1>EL HAMBRE<br>NO ESPERA<span>.</span></h1>
+        <p class="hero-text">Hamburguesas, papas y mucho sabor. Elegí tu favorito y armá tu pedido en unos pocos clics.</p>
+        <a class="primary-btn" href="#productos">VER EL MENÚ <span>↘</span></a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Hamburguesa con queso y papas fritas">
+        <div class="hero-sticker">100%<br><b>SABOR</b></div>
+      </div>
+      <div class="hero-bottom"><span>BUENOS AIRES, ARGENTINA</span><span>01 — 04 / NUESTRA CARTA</span></div>
+    </section>
+
+    <section class="menu-section" id="productos">
+      <div class="section-heading">
+        <div><p class="eyebrow">ELEGÍ ALGO RICO</p><h2>NUESTRO MENÚ<span>.</span></h2></div>
+        <p class="section-note">Productos frescos, porciones generosas<br>y precios claros.</p>
+      </div>
+
+      <div class="toolbar">
+        <div class="categories" id="categories">
+          <button class="category active" data-category="Todos">Todos</button>
+          <button class="category" data-category="Hamburguesas">Hamburguesas</button>
+          <button class="category" data-category="Papas">Papas</button>
+          <button class="category" data-category="Combos">Combos</button>
+          <button class="category" data-category="Bebidas">Bebidas</button>
+        </div>
+        <label class="search-box">⌕ <input id="searchInput" type="search" placeholder="Buscar producto..."></label>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="promo" id="nosotros">
+      <div><p class="eyebrow">LA IDEA ES SIMPLE</p><h2>BUENA COMIDA.<br>CERO VUELTAS.</h2></div>
+      <p>Somos una tienda ficticia creada para este proyecto escolar. Nuestra idea es ofrecer un menú simple, con una página fácil de usar y un pedido que se puede armar desde el celular o la computadora.</p>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div><p class="eyebrow">¿TENÉS UNA CONSULTA?</p><h2>HABLEMOS<span>.</span></h2></div>
+      <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Tu nombre" required>
+        <input type="email" id="contactEmail" placeholder="Tu email" required>
+        <textarea id="contactMessage" placeholder="Escribí tu mensaje..." rows="3" required></textarea>
+        <button class="primary-btn" type="submit">ENVIAR MENSAJE ↗</button>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#"><span class="brand-mark">BB</span><span>BARRIO<span class="brand-accent">BURGER</span><small>HECHO PARA DISFRUTAR</small></span></a><p>Proyecto escolar · HTML, CSS y JavaScript · 2026</p></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-panel" id="cartPanel" aria-label="Carrito de compras" aria-hidden="true">
+    <div class="cart-header"><div><p class="eyebrow">TU SELECCIÓN</p><h2>MI PEDIDO</h2></div><button id="cartClose" class="close-btn" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-items" id="cartItems"><p class="empty-cart">Todavía no agregaste productos.</p></div>
+    <div class="cart-footer"><div class="total-line"><span>Total</span><strong id="cartTotal">$0</strong></div><button class="checkout-btn" id="checkoutBtn">FINALIZAR PEDIDO ↗</button><small>Simulación de compra: no se realiza ningún pago real.</small></div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script>
+const products = [
+  {id:1,name:"La Clásica",category:"Hamburguesas",price:8500,description:"Carne, cheddar, lechuga, tomate y salsa de la casa.",image:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700&auto=format&fit=crop"},
+  {id:2,name:"Doble Barrio",category:"Hamburguesas",price:11000,description:"Doble carne, doble cheddar y cebolla caramelizada.",image:"https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=700&auto=format&fit=crop"},
+  {id:3,name:"Crispy Chicken",category:"Hamburguesas",price:9500,description:"Pollo crocante, lechuga fresca y aderezo especial.",image:"https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=700&auto=format&fit=crop"},
+  {id:4,name:"Papas clásicas",category:"Papas",price:4500,description:"Papas doradas con un toque de sal.",image:"https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=700&auto=format&fit=crop"},
+  {id:5,name:"Papas cheddar",category:"Papas",price:6500,description:"Papas fritas con cheddar y verdeo.",image:"https://images.unsplash.com/photo-1518013431117-eb1465fa5752?w=700&auto=format&fit=crop"},
+  {id:6,name:"Combo Doble",category:"Combos",price:14500,description:"Doble Barrio, papas clásicas y bebida.",image:"https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=700&auto=format&fit=crop"},
+  {id:7,name:"Combo Clásico",category:"Combos",price:12000,description:"La Clásica, papas chicas y bebida.",image:"https://images.unsplash.com/photo-1550547660-d9450f859349?w=700&auto=format&fit=crop"},
+  {id:8,name:"Gaseosa",category:"Bebidas",price:2500,description:"Bebida fría de 500 ml.",image:"https://images.unsplash.com/photo-1581636625402-29b2a704ef13?w=700&auto=format&fit=crop"}
+];
+// Corregimos una imagen de ejemplo para que la tarjeta del combo tenga una foto válida.
+products[5].image = "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=700&auto=format&fit=crop";
+
+let cart = JSON.parse(localStorage.getItem("barrioBurgerCart") || "[]");
+let activeCategory = "Todos";
+const grid = document.getElementById("productGrid");
+const cartPanel = document.getElementById("cartPanel");
+const overlay = document.getElementById("overlay");
+const money = value => "$" + value.toLocaleString("es-AR");
+
+function renderProducts(){
+  const term = document.getElementById("searchInput").value.toLowerCase().trim();
+  const filtered = products.filter(p => (activeCategory === "Todos" || p.category === activeCategory) && (p.name.toLowerCase().includes(term) || p.description.toLowerCase().includes(term)));
+  grid.innerHTML = filtered.length ? filtered.map(p => `
+    <article class="product-card">
+      <div class="product-image"><img src="${p.image}" alt="${p.name}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700&auto=format&fit=crop'"></div>
+      <div class="product-info"><span class="product-category">${p.category}</span><h3>${p.name}</h3><p>${p.description}</p>
+        <div class="product-bottom"><span class="price">${money(p.price)}</span><button class="add-btn" onclick="addToCart(${p.id})" aria-label="Agregar ${p.name}">+</button></div>
+      </div>
+    </article>`).join("") : '<p>No encontramos productos con esa búsqueda.</p>';
+}
+function saveCart(){localStorage.setItem("barrioBurgerCart",JSON.stringify(cart));renderCart();}
+function addToCart(id){const item=cart.find(x=>x.id===id);item?item.qty++:cart.push({id,qty:1});saveCart();showToast("¡Producto agregado al pedido!");}
+function changeQty(id,amount){const item=cart.find(x=>x.id===id);if(!item)return;item.qty+=amount;if(item.qty<=0)cart=cart.filter(x=>x.id!==id);saveCart();}
+function removeItem(id){cart=cart.filter(x=>x.id!==id);saveCart();showToast("Producto eliminado.");}
+function renderCart(){
+  const count=cart.reduce((sum,item)=>sum+item.qty,0);
+  document.getElementById("cartCount").textContent=count;
+  const total=cart.reduce((sum,item)=>{const p=products.find(x=>x.id===item.id);return sum+(p?p.price*item.qty:0)},0);
+  document.getElementById("cartTotal").textContent=money(total);
+  document.getElementById("cartItems").innerHTML=cart.length?cart.map(item=>{const p=products.find(x=>x.id===item.id);return `<div class="cart-row"><div><h4>${p.name}</h4><small>${money(p.price)} c/u</small><button class="remove-btn" onclick="removeItem(${p.id})">Eliminar</button></div><div class="quantity"><button onclick="changeQty(${p.id},-1)">−</button><b>${item.qty}</b><button onclick="changeQty(${p.id},1)">+</button></div></div>`}).join(""):'<p class="empty-cart">Todavía no agregaste productos.</p>';
+}
+function openCart(){cartPanel.classList.add("open");overlay.classList.add("show");cartPanel.setAttribute("aria-hidden","false");}
+function closeCart(){cartPanel.classList.remove("open");overlay.classList.remove("show");cartPanel.setAttribute("aria-hidden","true");}
+let toastTimer;
+function showToast(message){const toast=document.getElementById("toast");toast.textContent=message;toast.classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove("show"),2300);}
+
+document.getElementById("categories").addEventListener("click",e=>{const btn=e.target.closest("[data-category]");if(!btn)return;activeCategory=btn.dataset.category;document.querySelectorAll(".category").forEach(b=>b.classList.toggle("active",b===btn));renderProducts();});
+document.getElementById("searchInput").addEventListener("input",renderProducts);
+document.getElementById("cartOpen").addEventListener("click",openCart);
+document.getElementById("cartClose").addEventListener("click",closeCart);
+overlay.addEventListener("click",closeCart);
+document.getElementById("checkoutBtn").addEventListener("click",()=>{if(!cart.length){showToast("Primero agregá algún producto.");return;}const total=cart.reduce((sum,item)=>sum+products.find(p=>p.id===item.id).price*item.qty,0);alert("¡Pedido realizado!\nTotal: "+money(total)+"\nEsta es una simulación escolar, no se realizó ningún pago.");cart=[];saveCart();closeCart();showToast("¡Gracias por elegir Barrio Burger!");});
+document.getElementById("contactForm").addEventListener("submit",e=>{e.preventDefault();showToast("¡Gracias! Tu mensaje fue enviado (simulación).");e.target.reset();});
+renderProducts();renderCart();
+  </script>
+</body>
+</html>
